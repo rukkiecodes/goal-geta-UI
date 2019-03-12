@@ -1,0 +1,217 @@
+@media (max-width: 768px) {
+  body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(54, 180, 191, 0.3)), to(rgba(76, 158, 198, 0.8))), url("../../assets/accomplishment-action-adult-1058958.jpg") no-repeat;
+    background: linear-gradient(rgba(54, 180, 191, 0.3), rgba(76, 158, 198, 0.8)), url("../../assets/accomplishment-action-adult-1058958.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
+    padding-top: 30%;
+    overflow: hidden;
+  }
+  body .bg1 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(54, 180, 191, 0.9)), to(rgba(76, 158, 198, 0.9))), url("../../assets/accomplishment-action-adult-1058958.jpg") no-repeat;
+    background: linear-gradient(rgba(54, 180, 191, 0.9), rgba(76, 158, 198, 0.9)), url("../../assets/accomplishment-action-adult-1058958.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    margin-top: -30%;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  body .bg1 p {
+    color: #fff;
+    font-size: 30px;
+    line-height: 100vh;
+  }
+  body .content {
+    margin-top: -60%;
+  }
+  body .logo {
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-top: -160%;
+    color: #fff;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation: sinusoid 4s ease infinite;
+    animation: logo 4s ease infinite;
+  }
+  @-webkit-keyframes logo {
+    0%, 50% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-animation-timing-function: cubic-bezier(0.2, 0.25, 0.55, 1);
+      animation-timing-function: cubic-bezier(0.2, 0.25, 0.55, 1);
+    }
+    25% {
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+      -webkit-animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+      animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+    }
+    75% {
+      -webkit-transform: translateY(15px);
+      transform: translateY(15px);
+      -webkit-animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+      animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  @keyframes logo {
+    0%, 50% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-animation-timing-function: cubic-bezier(0.2, 0.25, 0.55, 1);
+      animation-timing-function: cubic-bezier(0.2, 0.25, 0.55, 1);
+    }
+    25% {
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+      -webkit-animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+      animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+    }
+    75% {
+      -webkit-transform: translateY(15px);
+      transform: translateY(15px);
+      -webkit-animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+      animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  body .quot {
+    color: #fff;
+    font-size: 12px;
+    margin-top: -40%;
+  }
+  body a {
+    color: #fff;
+    padding: 8px 80px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  body a:hover, body a a:focus {
+    background: #fff;
+    color: #05a9b7;
+  }
+  body .signup {
+    padding: 10px 72px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-splash {
+    display: none;
+  }
+  body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(54, 180, 191, 0.3)), to(rgba(76, 158, 198, 0.8))), url("../../assets/accomplishment-action-adult-1058958.jpg") no-repeat;
+    background: linear-gradient(rgba(54, 180, 191, 0.3), rgba(76, 158, 198, 0.8)), url("../../assets/accomplishment-action-adult-1058958.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+  }
+  body .content {
+    margin: auto;
+    display: block;
+    background: transparent;
+    max-width: 50%;
+    padding: 8% 5%;
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+  body .content .logo {
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: #fff;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation: sinusoid 3s ease infinite;
+    animation: logo 3s ease infinite;
+  }
+  @-webkit-keyframes logo {
+    0%, 50% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-animation-timing-function: cubic-bezier(0.2, 0.25, 0.55, 1);
+      animation-timing-function: cubic-bezier(0.2, 0.25, 0.55, 1);
+    }
+    25% {
+      -webkit-transform: translateY(-7px);
+      transform: translateY(-7px);
+      -webkit-animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+      animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+    }
+    75% {
+      -webkit-transform: translateY(7px);
+      transform: translateY(7px);
+      -webkit-animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+      animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  @keyframes logo {
+    0%, 50% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-animation-timing-function: cubic-bezier(0.2, 0.25, 0.55, 1);
+      animation-timing-function: cubic-bezier(0.2, 0.25, 0.55, 1);
+    }
+    25% {
+      -webkit-transform: translateY(-7px);
+      transform: translateY(-7px);
+      -webkit-animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+      animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+    }
+    75% {
+      -webkit-transform: translateY(7px);
+      transform: translateY(7px);
+      -webkit-animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+      animation-timing-function: cubic-bezier(0.45, 0, 0.8, 0.75);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  body .content .quot {
+    color: #fff;
+    font-size: 10px;
+  }
+  body .content a {
+    color: #fff;
+    padding: 8px 80px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  body .content a:hover, body .content a a:focus {
+    background: #fff;
+    color: #05a9b7;
+  }
+  body .content .signup {
+    padding: 10px 72px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

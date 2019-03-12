@@ -1,0 +1,341 @@
+@import '_settings';
+
+@include mobile{
+    body{
+        background: color(primary);
+        margin: 0px;
+        padding: 0px -15px !important;
+
+        .left{
+            background: linear-gradient(color(alt-primary), color(alt-primary)), url("../../assets/a-l-l-e-f-v-i-n-i-c-i-u-s-124556-unsplash.jpg") no-repeat;
+            background-size: cover;
+            background-position: center;
+            max-width: 100%;
+            box-shadow: 0px 0px 20px color(secondary);
+            padding-top: 5%;
+            text-align: center;
+            border: none;
+
+            .profile-pix{
+                a{
+                    text-decoration: none;
+                }
+                img{
+                    width: 45%;
+                    border: 8px solid color(background);
+                    border-radius: 50%;
+                }
+
+                .name{
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+
+            .links{
+                text-align: justify;
+                padding-bottom: 5%;
+
+                a{
+                    color: color(dark-secondary);
+                    font-size: 19px;
+                }
+            }
+        }
+
+        .right{
+            background: color(primary);
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0px 0px 20px color(secondary);
+            padding-top: 5%;
+            text-align: center;
+            border: none;
+
+            .commitments{
+                padding: 5% 0%;
+                .add-goal1{
+                    .add{
+                        color: color(dark-secondary);
+                        i{
+                            font-size: 40px;
+                            background: transparent;
+                            border: none;
+                            border-radius: 50%;
+                            box-shadow: 0px 0px 10px color(secondary);
+                            padding: 6% 7%;
+                        }
+                    }
+
+                    .input-field{
+                        margin: auto;
+
+                        textarea{
+                            background: inherit;
+                            border: none;
+                            border-bottom: 0.5px solid color(secondary);
+                            padding: 1% 2%;
+                            font-size: 20px;
+                            color: color(dark-secondary);
+                            resize: none;
+                            outline: inherit;
+                        }
+
+                        input[type="button"]{
+                            border: none;
+                            background: color(background);
+                            color: color(primary);
+                            border-radius: 4px;
+                            padding: 1% 5%;
+                            font-size: 20px;
+                        }
+
+                        .selection{
+                            select{
+                                background: inherit;
+                                border: none;
+                                outline: inherit;
+                                color: color(dark-secondary);
+
+                                option{
+                                    outline: inherit;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .display{
+                height: 50vh;
+                width: 100%;
+                border: 0.5px solid cloro(secondary);
+                border: none;
+                border-radius: 4px;
+                box-shadow: 0px 0px 10px color(secondary);
+                overflow-y: scroll;
+                margin-top: 2%;
+                padding: 2%;
+                text-align: justify;
+            }
+
+            .goal-list{
+                padding: 4%;
+                border: none;
+                border-radius: 4px;
+                box-shadow: 0px 0px 10px color(dark-secondary);
+                margin-top: 4%;
+                height: 50vh;
+                overflow-y: scroll;
+
+                h1{
+                    color: color(dark-secondary);
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@include desktop{
+    body{
+        background: linear-gradient(color(alt-primary), color(alt-primary)), url("../../assets/a-l-l-e-f-v-i-n-i-c-i-u-s-124556-unsplash.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .left{
+            background: transparent;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0px 0px 20px color(secondary);
+            padding-top: 5%;
+            padding-bottom: 5%;
+            text-align: center;
+            border: none;
+
+            .profile-pix{
+                a{
+                    text-decoration: none;
+                }
+                img{
+                    width: 50%;
+                    border: 8px solid color(background);
+                    border-radius: 50%;
+
+                    &:hover{
+                        background: linear-gradient(color(alt-primary), color(background));
+                    }
+                }
+
+                .name{
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+            }
+
+            .links{
+                text-align: justify;
+                padding-bottom: 5%;
+                line-height: 5vh;
+
+                a{
+                    color: color(dark-secondary);
+                    font-size: 19px;
+                    text-decoration: none;
+                    transition: 0.2s ease-in-out;
+
+                    &:hover{
+                        color: color(background);
+                    }
+                }
+            }
+        }
+
+        .right{
+            background: transparent;
+            height: auto;
+            padding-top: 1%;
+            text-align: center;
+            border: none;
+
+            .commitments{
+                padding: 5% 0%;
+                box-shadow: 0px 0px 10px color(secondary);
+                width: 100%;
+
+                .add-goal1{
+                    display: flex;
+                    .add{
+                        color: color(dark-secondary);
+                        i{
+                            font-size: 40px;
+                            background: transparent;
+                            border: none;
+                            border-radius: 50%;
+                            box-shadow: 0px 0px 10px color(secondary);
+                            padding: 6% 7%;
+                            transition: 0.3s ease-in-out;
+
+                            &:hover{
+                                transform: rotate(90deg);
+                            }
+                        }
+                    }
+
+                    .input-field{
+                        margin: auto;
+                        display: flex;
+                        width: 100%;
+
+                        textarea{
+                            background: inherit;
+                            border: none;
+                            border-bottom: 0.5px solid color(secondary);
+                            padding: 1% 2%;
+                            font-size: 20px;
+                            color: color(dark-secondary);
+                            width: 100%;
+                            outline: inherit;
+                            resize: none;
+                        }
+
+                        input[type="button"]{
+                            border: none;
+                            background: color(background);
+                            color: color(primary);
+                            border-radius: 4px;
+                            padding: 1% 5%;
+                            font-size: 20px;
+                        }
+
+                        .selection{
+                            display: flex;
+                            select{
+                                background: inherit;
+                                border: none;
+                                outline: inherit;
+                                color: color(dark-secondary);
+
+                                option{
+                                    outline: inherit;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .display{
+                height: 50vh;
+                width: 100%;
+                border: 0.5px solid cloro(secondary);
+                border: none;
+                box-shadow: 0px 0px 10px color(secondary);
+                overflow-y: scroll;
+                margin-top: 2%;
+                padding: 2%;
+                text-align: justify;
+            }
+
+            .goal-list{
+                padding: 4%;
+                border: none;
+                border-radius: 4px;
+                box-shadow: 0px 0px 10px color(dark-secondary);
+                margin-top: 4%;
+                height: 50vh;
+                overflow-y: scroll;
+
+                h1{
+                    color: color(dark-secondary);
+                    font-size: 25px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+$colors:(nav: #484859,
+background: #05a9b7,
+primary: #fff,
+alt-primary: rgba(255, 255, 255, 0.9),
+secondary: rgba(0, 0, 0, 0.3),
+dark-secondary: rgba(0,0,0,0.8)
+);
+
+$properties:(margin: 0px,
+padding: 0px,
+center-item: 0 auto,
+align-center: center,
+align-right: right,
+align-left: left);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name)
+}
+
+@function tools($tools) {
+  @return map-get($properties, $tools)
+}
+
+$mobile: 768px;
+$desktop:768px;
+
+@mixin mobile {
+  @media (max-width: #{$mobile}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}

@@ -1,0 +1,213 @@
+@import '_settings';
+@include mobile{
+  body{
+    background: linear-gradient(rgba(54, 180, 191, 0.3), rgba(76, 158, 198, 0.8)), url("../../assets/accomplishment-action-adult-1058958.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
+    padding-top: 30%;
+    overflow: hidden;
+
+    .bg1{
+      background: linear-gradient(rgba(54, 180, 191, 0.9), rgba(76, 158, 198, 0.9)), url("../../assets/accomplishment-action-adult-1058958.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      margin-top: -30%;
+      animation-delay: 1s;
+
+      p{
+        color: color(primary);
+        font-size: 30px;
+        line-height: 100vh;
+      }
+    }
+
+    .content{
+      margin-top: -60%;
+    }
+
+    .logo{
+      font-size: 40px;
+      letter-spacing: 4px;
+      margin-top: -160%;
+      color: color(primary);
+      animation-fill-mode: both;
+      -webkit-animation: sinusoid 4s ease infinite;
+      animation: logo 4s ease infinite;
+    }
+    @keyframes logo {
+      0%, 50% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: cubic-bezier(.2,.25,.55,1);
+        animation-timing-function: cubic-bezier(.2,.25,.55,1);
+      }
+    25% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+        -webkit-animation-timing-function: cubic-bezier(.45,0,.8,.75);
+        animation-timing-function: cubic-bezier(.45,0,.8,.75);
+      }
+    75% {
+        -webkit-transform: translateY(15px);
+        transform: translateY(15px);
+        -webkit-animation-timing-function: cubic-bezier(.45,0,.8,.75);
+        animation-timing-function: cubic-bezier(.45,0,.8,.75);
+    }
+    
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+      }
+    }
+
+    .quot{
+      color: color(primary);
+      font-size: 12px;
+      margin-top: -40%;
+    }
+
+    a{
+      color: color(primary);
+      padding: 8px 80px;
+      border: 1px solid color(primary);
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 16px;
+      text-transform: uppercase;
+      z-index: 1;
+
+      &:hover, a:focus{
+        background: color(primary);
+        color: color(background);
+      }
+    }
+    .signup{
+      padding: 10px 72px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@include desktop{
+  .mobile-splash{
+    display: none;
+  }
+  body{
+    background: linear-gradient(rgba(54, 180, 191, 0.3), rgba(76, 158, 198, 0.8)), url("../../assets/accomplishment-action-adult-1058958.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+
+    .content{
+      margin: auto;
+      display: block;
+      background: transparent;
+      max-width: 50%;
+      padding: 8% 5%;
+      box-shadow: 0px 0px 30px color(secondary);
+      border-radius: 10px;
+
+      .logo{
+        font-size: 40px;
+        letter-spacing: 4px;
+        color: color(primary);
+        animation-fill-mode: both;
+        -webkit-animation: sinusoid 3s ease infinite;
+        animation: logo 3s ease infinite;
+      }
+      @keyframes logo {
+        0%, 50% {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+          -webkit-animation-timing-function: cubic-bezier(.2,.25,.55,1);
+          animation-timing-function: cubic-bezier(.2,.25,.55,1);
+        }
+      25% {
+          -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+          -webkit-animation-timing-function: cubic-bezier(.45,0,.8,.75);
+          animation-timing-function: cubic-bezier(.45,0,.8,.75);
+        }
+      75% {
+          -webkit-transform: translateY(7px);
+          transform: translateY(7px);
+          -webkit-animation-timing-function: cubic-bezier(.45,0,.8,.75);
+          animation-timing-function: cubic-bezier(.45,0,.8,.75);
+      }
+      
+      100% {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+      }
+
+      .quot{
+        color: color(primary);
+        font-size: 10px;
+      }
+
+      a{
+        color: color(primary);
+        padding: 8px 80px;
+        border: 1px solid color(primary);
+        border-radius: 50px;
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        transition: 0.3s ease-in-out;
+  
+        &:hover, a:focus{
+          background: color(primary);
+          color: color(background);
+        }
+      }
+      .signup{
+        padding: 10px 72px;
+      }
+    }
+  }
+}

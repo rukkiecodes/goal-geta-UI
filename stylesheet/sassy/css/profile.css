@@ -1,0 +1,276 @@
+@media (max-width: 768px) {
+  body {
+    background: #fff;
+    margin: 0px;
+    padding: 0px -15px !important;
+  }
+  body .left {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url("../../assets/a-l-l-e-f-v-i-n-i-c-i-u-s-124556-unsplash.jpg") no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../../assets/a-l-l-e-f-v-i-n-i-c-i-u-s-124556-unsplash.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    padding-top: 5%;
+    text-align: center;
+    border: none;
+  }
+  body .left .profile-pix a {
+    text-decoration: none;
+  }
+  body .left .profile-pix img {
+    width: 45%;
+    border: 8px solid #05a9b7;
+    border-radius: 50%;
+  }
+  body .left .profile-pix .name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  body .left .links {
+    text-align: justify;
+    padding-bottom: 5%;
+  }
+  body .left .links a {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 19px;
+  }
+  body .right {
+    background: #fff;
+    max-width: 100%;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    padding-top: 5%;
+    text-align: center;
+    border: none;
+  }
+  body .right .commitments {
+    padding: 5% 0%;
+  }
+  body .right .commitments .add-goal1 .add {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  body .right .commitments .add-goal1 .add i {
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 6% 7%;
+  }
+  body .right .commitments .add-goal1 .input-field {
+    margin: auto;
+  }
+  body .right .commitments .add-goal1 .input-field textarea {
+    background: inherit;
+    border: none;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+    padding: 1% 2%;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    resize: none;
+    outline: inherit;
+  }
+  body .right .commitments .add-goal1 .input-field input[type="button"] {
+    border: none;
+    background: #05a9b7;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1% 5%;
+    font-size: 20px;
+  }
+  body .right .commitments .add-goal1 .input-field .selection select {
+    background: inherit;
+    border: none;
+    outline: inherit;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  body .right .commitments .add-goal1 .input-field .selection select option {
+    outline: inherit;
+  }
+  body .right .display {
+    height: 50vh;
+    width: 100%;
+    border: 0.5px solid cloro(secondary);
+    border: none;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+    margin-top: 2%;
+    padding: 2%;
+    text-align: justify;
+  }
+  body .right .goal-list {
+    padding: 4%;
+    border: none;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    margin-top: 4%;
+    height: 50vh;
+    overflow-y: scroll;
+  }
+  body .right .goal-list h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url("../../assets/a-l-l-e-f-v-i-n-i-c-i-u-s-124556-unsplash.jpg") no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../../assets/a-l-l-e-f-v-i-n-i-c-i-u-s-124556-unsplash.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  body .left {
+    background: transparent;
+    max-width: 100%;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    border: none;
+  }
+  body .left .profile-pix a {
+    text-decoration: none;
+  }
+  body .left .profile-pix img {
+    width: 50%;
+    border: 8px solid #05a9b7;
+    border-radius: 50%;
+  }
+  body .left .profile-pix img:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(#05a9b7));
+    background: linear-gradient(rgba(255, 255, 255, 0.9), #05a9b7);
+  }
+  body .left .profile-pix .name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  body .left .links {
+    text-align: justify;
+    padding-bottom: 5%;
+    line-height: 5vh;
+  }
+  body .left .links a {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 19px;
+    text-decoration: none;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  body .left .links a:hover {
+    color: #05a9b7;
+  }
+  body .right {
+    background: transparent;
+    height: auto;
+    padding-top: 1%;
+    text-align: center;
+    border: none;
+  }
+  body .right .commitments {
+    padding: 5% 0%;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+  }
+  body .right .commitments .add-goal1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .right .commitments .add-goal1 .add {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  body .right .commitments .add-goal1 .add i {
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 6% 7%;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  body .right .commitments .add-goal1 .add i:hover {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  body .right .commitments .add-goal1 .input-field {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  body .right .commitments .add-goal1 .input-field textarea {
+    background: inherit;
+    border: none;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+    padding: 1% 2%;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    outline: inherit;
+    resize: none;
+  }
+  body .right .commitments .add-goal1 .input-field input[type="button"] {
+    border: none;
+    background: #05a9b7;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1% 5%;
+    font-size: 20px;
+  }
+  body .right .commitments .add-goal1 .input-field .selection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .right .commitments .add-goal1 .input-field .selection select {
+    background: inherit;
+    border: none;
+    outline: inherit;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  body .right .commitments .add-goal1 .input-field .selection select option {
+    outline: inherit;
+  }
+  body .right .display {
+    height: 50vh;
+    width: 100%;
+    border: 0.5px solid cloro(secondary);
+    border: none;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+    margin-top: 2%;
+    padding: 2%;
+    text-align: justify;
+  }
+  body .right .goal-list {
+    padding: 4%;
+    border: none;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    margin-top: 4%;
+    height: 50vh;
+    overflow-y: scroll;
+  }
+  body .right .goal-list h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 25px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=profile.css.map */

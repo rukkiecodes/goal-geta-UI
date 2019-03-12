@@ -1,0 +1,324 @@
+@import '_settings';
+a, input{
+  outline: inherit;
+}
+@include mobile{
+  body{
+    background: color(primary);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10%;
+
+    header{
+      display: none;
+    }
+
+    .logo{
+      margin-top: -10%;
+      font-size: 40px;
+      letter-spacing: 4px;
+      color: color(background);
+      animation-fill-mode: both;
+      -webkit-animation: sinusoid 4s ease infinite;
+      animation: logo 4s ease infinite;
+    }
+    @keyframes logo {
+      0%, 50% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: cubic-bezier(.2,.25,.55,1);
+        animation-timing-function: cubic-bezier(.2,.25,.55,1);
+      }
+      25% {
+        -webkit-transform: translateY(-7px);
+        transform: translateY(-7px);
+        -webkit-animation-timing-function: cubic-bezier(.45,0,.8,.75);
+        animation-timing-function: cubic-bezier(.45,0,.8,.75);
+      }
+      75% {
+        -webkit-transform: translateY(7px);
+        transform: translateY(7px);
+        -webkit-animation-timing-function: cubic-bezier(.45,0,.8,.75);
+        animation-timing-function: cubic-bezier(.45,0,.8,.75);
+      }
+        
+      100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+      }
+    }
+
+    .right{
+      background: linear-gradient(rgba(54, 180, 191, 0.3), rgba(76, 158, 198, 0.8)), url("../../assets/action-adult-athlete-936094.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: -10% 0%;
+      box-sizing: border-box;
+      text-align: center;
+      padding: 4%;
+
+      .register{
+        color: color(primary);
+        font-size: 30px;
+      }
+
+      .register-text{
+        color: rgba(0,0,0,0.8);
+        text-align: justify;
+      }
+
+      .ticks{
+        color: color(primary);
+        text-align: justify;
+
+        i{
+          color: color(primary);
+        }
+      }
+    }
+
+    .left{
+      border: none;
+      margin: 4%;
+      border-radius: 8px;
+      background: color(primary);
+      box-shadow: 0px 0px 10px color(secondary);
+      padding: 4%;
+      padding-top: 5%;
+
+      i{
+        color: color(background);
+      }
+
+      input[type="text"], input[type="password"], input[type="email"]{
+        border: none;
+        border-bottom: 1px solid color(background);
+        letter-spacing: 2px;
+        font-size: 16px;
+        color: color(primary);
+        background: transparent;
+        width: 80%;
+        padding-left: 2%;
+
+        &:focus{
+          outline: inherit;
+        }
+      }
+
+      input[type="submit"]{
+        color: color(primary);
+        padding: 6px 60px;
+        border: 1px solid color(background);
+        border-radius: 50px;
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        background: color(background);
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+          background: color(primary);
+          border: 1px solid color(primary);
+          color: color(background);
+        }
+      }
+
+      .extra{
+        a{
+          color: color(background);
+          text-decoration: none;
+          font-size: 16px;
+          text-transform: uppercase;
+        }
+
+        p{
+          color: color(background);
+
+          .link{
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@include desktop{
+    body{
+      background: linear-gradient(rgba(54, 180, 191, 0.3), rgba(76, 158, 198, 0.8)), url("../../assets/action-adult-athlete-936094.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-align: center;
+      padding-top: 10%;
+
+      .right{
+        border: 1px solid color(secondary);
+        border-radius: 30px;
+        margin: auto 0%;
+      }
+
+      .register{
+        color: color(primary);
+        font-size: 30px;
+      }
+
+      .register-text{
+        color: rgba(0,0,0,0.8);
+        text-align: justify;
+        font-size: 16px;
+      }
+
+      .ticks{
+        text-align: justify;
+        font-size: 16px;
+      }
+
+      .sign-up{
+        color: color(primary);
+        padding: 8px 80px;
+        border: 1px solid color(background);
+        border-radius: 50px;
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        background: color(background);
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+          background: color(primary);
+          border: 1px solid color(primary);
+          color: color(background);
+      }
+      }
+
+      .logo{
+        margin-top: 2%;
+        font-size: 40px;
+        letter-spacing: 4px;
+        color: color(background);
+        animation-fill-mode: both;
+        -webkit-animation: sinusoid 4s ease infinite;
+        animation: logo 4s ease infinite;
+      }
+            @keyframes logo {
+            0%, 50% {
+              -webkit-transform: translateY(0);
+              transform: translateY(0);
+              -webkit-animation-timing-function: cubic-bezier(.2,.25,.55,1);
+              animation-timing-function: cubic-bezier(.2,.25,.55,1);
+            }
+            25% {
+              -webkit-transform: translateY(-15px);
+              transform: translateY(-15px);
+              -webkit-animation-timing-function: cubic-bezier(.45,0,.8,.75);
+              animation-timing-function: cubic-bezier(.45,0,.8,.75);
+            }
+            75% {
+              -webkit-transform: translateY(15px);
+              transform: translateY(15px);
+              -webkit-animation-timing-function: cubic-bezier(.45,0,.8,.75);
+              animation-timing-function: cubic-bezier(.45,0,.8,.75);
+            }
+          
+            100% {
+              -webkit-transform: translateY(0);
+              transform: translateY(0);
+            }
+        }
+
+        i{
+            color: color(primary);
+            font-size: 20px;
+            margin-right: 1%;
+        }
+
+        input[type="text"], input[type="password"], input[type="email"]{
+            border: none;
+            border-bottom: 1px solid color(background);
+            width: 40%;
+            letter-spacing: 2px;
+            font-size: 20px;
+            color: color(primary);
+            background: transparent;
+            width: 50%;
+
+            &:focus{
+                outline: inherit;
+            }
+        }
+
+        input[type="submit"]{
+            color: color(primary);
+            padding: 8px 80px;
+            border: 1px solid color(background);
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 16px;
+            text-transform: uppercase;
+            background: color(background);
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+
+            &:hover{
+                background: color(primary);
+                border: 1px solid color(primary);
+                color: color(background);
+            }
+        }
+
+        label{
+          color: color(primary);
+        }
+
+        .extra{
+            a{
+                color: color(primary);
+                text-decoration: none;
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+
+            p{
+                color: color(primary);
+
+                .link{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
